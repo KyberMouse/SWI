@@ -23,11 +23,24 @@
 # Registers:
 
 # File marks:
-'0  9  10  ~\text.txt
-'1  2  9  ~\.git\COMMIT_EDITMSG
-'2  11  5  ~\.git\COMMIT_EDITMSG
+'0  8  4  ~\novy.txt
+'1  9  10  ~\text.txt
+'2  2  9  ~\.git\COMMIT_EDITMSG
+'3  11  5  ~\.git\COMMIT_EDITMSG
 
 # Jumplist (newest first):
+-'  8  4  ~\novy.txt
+-'  1  0  ~\novy.txt
+-'  9  10  ~\text.txt
+-'  1  0  ~\text.txt
+-'  2  9  ~\.git\COMMIT_EDITMSG
+-'  1  0  ~\.git\COMMIT_EDITMSG
+-'  11  5  ~\.git\COMMIT_EDITMSG
+-'  19  0  ~\.git\COMMIT_EDITMSG
+-'  2  9  ~\.git\COMMIT_EDITMSG
+-'  1  0  ~\.git\COMMIT_EDITMSG
+-'  11  5  ~\.git\COMMIT_EDITMSG
+-'  19  0  ~\.git\COMMIT_EDITMSG
 -'  9  10  ~\text.txt
 -'  1  0  ~\text.txt
 -'  2  9  ~\.git\COMMIT_EDITMSG
@@ -40,6 +53,12 @@
 -'  19  0  ~\.git\COMMIT_EDITMSG
 
 # History of marks within files (newest to oldest):
+
+> ~\novy.txt
+	"	8	4
+	^	8	5
+	.	8	4
+	+	8	4
 
 > ~\text.txt
 	"	9	10
